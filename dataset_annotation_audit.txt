@@ -1,0 +1,27 @@
+# Dataset Annotation and Validation Audit
+
+**Project:** YOLOv8-Based Object Detection for Bottles, Cans, and Cups  
+**Framework:** Ultralytics YOLOv8  
+**Dataset Classes:** Bottle, Can, Cup
+
+## Personal Dataset Summary
+
+- Total images: 43
+- Total annotated bounding boxes: 50
+- Bottle annotations: 24
+- Can annotations: 4
+- Cup annotations: 22
+
+## Dataset Preparation
+
+- Training images: 25
+- Validation images: 9
+- Testing images: 9
+
+## Data Quality Considerations
+
+The personal dataset currently contains 50 annotated bounding boxes. Additional genuine annotations are required to reach a target of 150 bounding boxes.
+
+The dataset has been reorganized into separate training, validation, and testing splits. The model should be retrained using these splits before reporting independent test performance.
+
+All annotations and evaluation results should be verified before publication.
